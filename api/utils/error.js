@@ -1,4 +1,5 @@
-/**Custom Error function */
+/**
+ * Custom Error function */
 
 export const errorHandler = (statusCode, message) => {
   const error = new Error();

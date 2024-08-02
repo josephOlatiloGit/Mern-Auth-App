@@ -4,7 +4,7 @@ import { errorHandler } from "./error.js";
 /***
  * We need cookie parser in our app to parse cookie
  * which we need for user verification.
- * then we use the verify token we created here in the update route.
+ * then we use the verify method to verify the token we created here in the update route.
  */
 
 export const verifyToken = (req, res, next) => {

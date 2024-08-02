@@ -69,7 +69,7 @@ export default function Profile() {
 
   /***
    * UPDATING THE USER INFORMATION:
-   * Here we manage the Update States to the redux user slice in redux store.
+   * Here we manage the Updated States in the redux user slice in redux store.
    * We also add the Loading effect and error and success messages.
    */
 
@@ -100,7 +100,7 @@ export default function Profile() {
     }
   };
   /***
-   * Here since all users are store in our redux tool kit,
+   * Here since all users states are store in our redux tool kit,
    * we need to add/ manage the delete from redux as well.
    */
   const handleDeleteAccount = async () => {

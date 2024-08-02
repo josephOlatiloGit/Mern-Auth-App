@@ -57,7 +57,7 @@ export const google = async (req, res, next) => {
         Math.random().toString(36).slice(-8) +
         Math.random().toString(36).slice(-8);
       const hashedPassword = bcryptjs.hashSync(generatedPassword, 10);
-      /**Create a random credentials with
+      /**Create a random credentials into our db with
        * username to lowercase with
        * random number converted to string course we cannot join two different dataType together simultaneously  */
       const newUser = new User({
